@@ -1,0 +1,25 @@
+{
+  "name": "guitar-chord-definitions",
+  "version": "1.0.0",
+  "description": "Definitions for guitar chords and keys.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "Jared Williams <accounts@jaredwilliams.com.au>",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  }
+}

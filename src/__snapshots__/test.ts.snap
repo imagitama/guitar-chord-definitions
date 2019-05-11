@@ -1,0 +1,1681 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chords matches the snapshot 1`] = `
+Array [
+  Object {
+    "frets": Object {
+      "2": Object {
+        "2": 3,
+        "3": 1,
+        "4": 2,
+      },
+    },
+    "fullName": "A major",
+    "isCommonChord": true,
+    "shortName": "A",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "2": 1,
+      },
+      "2": Object {
+        "3": 3,
+        "4": 2,
+      },
+    },
+    "fullName": "A minor",
+    "isCommonChord": true,
+    "shortName": "Am",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "alternativeShortName": "G#",
+    "frets": Object {
+      "4": "BarFret",
+      "5": Object {
+        "3": 2,
+      },
+      "6": Object {
+        "4": 4,
+        "5": 3,
+      },
+    },
+    "fullName": "A flat",
+    "shortName": "Ab",
+  },
+  Object {
+    "alternativeShortName": "G#m",
+    "frets": Object {
+      "4": "BarFret",
+      "6": Object {
+        "4": 3,
+        "5": 2,
+      },
+    },
+    "fullName": "A flat minor",
+    "shortName": "Abm",
+  },
+  Object {
+    "alternativeShortName": "Bb",
+    "frets": Object {
+      "1": "BarFret",
+      "3": Object {
+        "2": 4,
+        "3": 3,
+        "4": 2,
+      },
+    },
+    "fullName": "A sharp",
+    "shortName": "A#",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": "BarFret",
+      "2": Object {
+        "2": 2,
+      },
+      "3": Object {
+        "3": 4,
+        "4": 3,
+      },
+    },
+    "fullName": "A sharp minor",
+    "shortName": "A#m",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "2": 2,
+        "4": 1,
+      },
+      "2": Object {
+        "3": 3,
+      },
+    },
+    "fullName": "A diminished",
+    "shortName": "Adim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "5": 1,
+      },
+      "2": Object {
+        "2": 3,
+        "4": 2,
+      },
+      "3": Object {
+        "3": 4,
+      },
+    },
+    "fullName": "A sharp diminished",
+    "shortName": "A#dim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "3": 3,
+        "4": 2,
+      },
+    },
+    "fullName": "A suspended 2",
+    "shortName": "Asus2",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "3": 2,
+        "4": 1,
+      },
+      "3": Object {
+        "2": 3,
+      },
+    },
+    "fullName": "A suspended 4",
+    "shortName": "Asus4",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "2": 2,
+        "4": 1,
+      },
+    },
+    "fullName": "A dominant 7",
+    "shortName": "A7",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": "BarFret",
+      "4": Object {
+        "2": 4,
+        "3": 3,
+        "4": 2,
+      },
+    },
+    "fullName": "B major",
+    "isCommonChord": true,
+    "shortName": "B",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": "BarFret",
+      "3": Object {
+        "2": 2,
+      },
+      "4": Object {
+        "3": 4,
+        "4": 3,
+      },
+    },
+    "fullName": "B minor",
+    "isCommonChord": true,
+    "shortName": "Bm",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "alternativeShortName": "A#",
+    "copyFrom": "A#",
+    "fullName": "B flat",
+    "isCommonChord": true,
+    "shortName": "Bb",
+  },
+  Object {
+    "alternativeShortName": "A#m",
+    "copyFrom": "A#m",
+    "fullName": "B flat minor",
+    "shortName": "Bbm",
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "5": 1,
+      },
+      "2": Object {
+        "2": 3,
+        "4": 2,
+      },
+      "3": Object {
+        "3": 4,
+      },
+    },
+    "fullName": "B flat diminished",
+    "shortName": "Bbdim",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "5": 1,
+      },
+      "3": Object {
+        "2": 3,
+        "4": 2,
+      },
+      "4": Object {
+        "3": 4,
+      },
+    },
+    "fullName": "B diminished",
+    "shortName": "Bdim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": "BarFret",
+      "4": Object {
+        "3": 4,
+        "4": 3,
+      },
+    },
+    "fullName": "B suspended 2",
+    "shortName": "Bsus2",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": "BarFret",
+      "4": Object {
+        "3": 3,
+        "4": 2,
+      },
+      "5": Object {
+        "2": 4,
+      },
+    },
+    "fullName": "B suspended 4",
+    "shortName": "Bsus4",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "4": 1,
+      },
+      "2": Object {
+        "1": 4,
+        "3": 3,
+        "5": 2,
+      },
+    },
+    "fullName": "B dominant 7",
+    "shortName": "B7",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "2": 1,
+      },
+      "2": Object {
+        "4": 2,
+      },
+      "3": Object {
+        "5": 3,
+      },
+    },
+    "fullName": "C major",
+    "isCommonChord": true,
+    "shortName": "C",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "3": "BarFret",
+      "4": Object {
+        "2": 2,
+      },
+      "5": Object {
+        "3": 4,
+        "4": 3,
+      },
+    },
+    "fullName": "C minor",
+    "shortName": "Cm",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "alternativeShortName": "Db",
+    "frets": Object {
+      "4": "BarFret",
+      "6": Object {
+        "2": 4,
+        "3": 3,
+        "4": 2,
+      },
+    },
+    "fullName": "C sharp",
+    "shortName": "C#",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "4": "BarFret",
+      "5": Object {
+        "2": 2,
+      },
+      "6": Object {
+        "3": 4,
+        "4": 3,
+      },
+    },
+    "fullName": "C sharp minor",
+    "shortName": "C#m",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "4": Object {
+        "5": 1,
+      },
+      "5": Object {
+        "2": 3,
+        "4": 2,
+      },
+      "6": Object {
+        "3": 4,
+      },
+    },
+    "fullName": "C sharp diminished",
+    "shortName": "C#dim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "2": 1,
+      },
+      "2": Object {
+        "4": 4,
+        "5": 3,
+      },
+    },
+    "fullName": "C slash B",
+    "shortName": "C/B",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "3": Object {
+        "5": 1,
+      },
+      "4": Object {
+        "2": 3,
+        "4": 2,
+      },
+      "5": Object {
+        "3": 4,
+      },
+    },
+    "fullName": "C diminished",
+    "shortName": "Cdim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "4": 1,
+      },
+      "3": Object {
+        "2": 4,
+        "3": 3,
+        "5": 2,
+      },
+    },
+    "fullName": "C ninth",
+    "shortName": "C9",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "4": 1,
+      },
+      "3": Object {
+        "2": 3,
+        "5": 2,
+      },
+    },
+    "fullName": "C add 9",
+    "shortName": "Cadd9",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "2": 1,
+      },
+      "3": Object {
+        "5": 3,
+      },
+    },
+    "fullName": "C suspended 2",
+    "shortName": "Csus2",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "2": 1,
+      },
+      "3": Object {
+        "4": 4,
+        "5": 3,
+      },
+    },
+    "fullName": "C suspended 4",
+    "shortName": "Csus4",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "2": 1,
+      },
+      "2": Object {
+        "4": 2,
+      },
+      "3": Object {
+        "3": 4,
+        "5": 3,
+      },
+    },
+    "fullName": "C dominant 7",
+    "shortName": "C7",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "alternativeShortName": "B",
+    "copyFrom": "B",
+    "fullName": "C flat",
+    "shortName": "Cb",
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "1": 2,
+        "3": 1,
+      },
+      "3": Object {
+        "2": 3,
+      },
+    },
+    "fullName": "D major",
+    "isCommonChord": true,
+    "shortName": "D",
+    "strings": Object {
+      "5": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "1": 1,
+      },
+      "2": Object {
+        "3": 2,
+      },
+      "3": Object {
+        "2": 3,
+      },
+    },
+    "fullName": "D minor",
+    "isCommonChord": true,
+    "shortName": "Dm",
+    "strings": Object {
+      "5": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "alternativeShortName": "Eb",
+    "copyFrom": "Eb",
+    "fullName": "D sharp",
+    "shortName": "D#",
+  },
+  Object {
+    "alternativeShortName": "Ebm",
+    "frets": Object {
+      "6": "BarFret",
+      "7": Object {
+        "2": 2,
+      },
+      "8": Object {
+        "3": 4,
+        "4": 3,
+      },
+    },
+    "fullName": "D sharp minor",
+    "shortName": "D#m",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "6": Object {
+        "5": 1,
+      },
+      "7": Object {
+        "2": 3,
+        "4": 2,
+      },
+      "8": Object {
+        "3": 4,
+      },
+    },
+    "fullName": "D sharp diminished",
+    "shortName": "D#dim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "alternativeShortName": "C#",
+    "copyFrom": "C#",
+    "fullName": "D flat",
+    "shortName": "Db",
+  },
+  Object {
+    "alternativeShortName": "C#m",
+    "copyFrom": "C#m",
+    "fullName": "D flat minor",
+    "shortName": "Dbm",
+  },
+  Object {
+    "frets": Object {
+      "5": Object {
+        "5": 1,
+      },
+      "6": Object {
+        "2": 3,
+        "4": 2,
+      },
+      "7": Object {
+        "3": 4,
+      },
+    },
+    "fullName": "D diminished",
+    "shortName": "Ddim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "3": 2,
+      },
+      "3": Object {
+        "2": 3,
+      },
+    },
+    "fullName": "D suspended 2",
+    "shortName": "Dsus2",
+    "strings": Object {
+      "5": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "3": 2,
+      },
+      "3": Object {
+        "1": 4,
+        "2": 3,
+      },
+    },
+    "fullName": "D suspended 4",
+    "shortName": "Dsus4",
+    "strings": Object {
+      "5": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "2": 1,
+      },
+      "2": Object {
+        "1": 3,
+        "3": 2,
+      },
+    },
+    "fullName": "D dominant 7",
+    "shortName": "D7",
+    "strings": Object {
+      "5": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "3": 1,
+      },
+      "2": Object {
+        "4": 2,
+        "5": 3,
+      },
+    },
+    "fullName": "E major",
+    "isCommonChord": true,
+    "shortName": "E",
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "4": 2,
+        "5": 3,
+      },
+    },
+    "fullName": "E minor",
+    "isCommonChord": true,
+    "shortName": "Em",
+  },
+  Object {
+    "frets": Object {
+      "7": Object {
+        "5": 1,
+      },
+      "8": Object {
+        "2": 3,
+        "4": 2,
+      },
+      "9": Object {
+        "3": 4,
+      },
+    },
+    "fullName": "E sharp diminished",
+    "shortName": "E#dim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "alternativeShortName": "D#",
+    "frets": Object {
+      "6": "BarFret",
+      "8": Object {
+        "2": 4,
+        "3": 3,
+        "4": 2,
+      },
+    },
+    "fullName": "E flat",
+    "shortName": "Eb",
+  },
+  Object {
+    "alternativeShortName": "D#m",
+    "copyFrom": "D#m",
+    "fullName": "E flat minor",
+    "shortName": "Ebm",
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "5": 1,
+      },
+      "2": Object {
+        "4": 2,
+      },
+    },
+    "fullName": "E diminished",
+    "shortName": "Edim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "2": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "5": 1,
+      },
+      "4": Object {
+        "3": 4,
+        "4": 3,
+      },
+    },
+    "fullName": "E suspended 2",
+    "shortName": "Esus2",
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "3": 4,
+        "4": 3,
+        "5": 2,
+      },
+    },
+    "fullName": "E suspended 4",
+    "shortName": "Esus4",
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "3": 1,
+      },
+      "2": Object {
+        "5": 2,
+      },
+    },
+    "fullName": "E dominant 7",
+    "shortName": "E7",
+  },
+  Object {
+    "frets": Object {
+      "1": "BarFret",
+      "2": Object {
+        "3": 2,
+      },
+      "3": Object {
+        "4": 4,
+        "5": 3,
+      },
+    },
+    "fullName": "F major",
+    "isCommonChord": true,
+    "shortName": "F",
+  },
+  Object {
+    "frets": Object {
+      "1": "BarFret",
+      "3": Object {
+        "4": 3,
+        "5": 2,
+      },
+    },
+    "fullName": "F minor",
+    "shortName": "Fm",
+  },
+  Object {
+    "alternativeShortName": "Gb",
+    "frets": Object {
+      "2": "BarFret",
+      "3": Object {
+        "3": 2,
+      },
+      "4": Object {
+        "4": 4,
+        "5": 3,
+      },
+    },
+    "fullName": "F sharp",
+    "shortName": "F#",
+  },
+  Object {
+    "alternativeShortName": "Gbm",
+    "frets": Object {
+      "2": "BarFret",
+      "4": Object {
+        "4": 4,
+        "5": 3,
+      },
+    },
+    "fullName": "F sharp minor",
+    "shortName": "F#m",
+  },
+  Object {
+    "frets": Object {
+      "6": Object {
+        "5": 1,
+      },
+      "7": Object {
+        "2": 3,
+        "4": 2,
+      },
+      "8": Object {
+        "3": 4,
+      },
+    },
+    "fullName": "F sharp diminished",
+    "shortName": "F#dim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "10": Object {
+        "3": 4,
+      },
+      "8": Object {
+        "5": 1,
+      },
+      "9": Object {
+        "2": 3,
+        "4": 2,
+      },
+    },
+    "fullName": "F major diminished",
+    "shortName": "Fdim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "10": Object {
+        "3": 4,
+        "4": 3,
+      },
+      "8": "BarFret",
+    },
+    "fullName": "F suspended 2",
+    "shortName": "Fsus2",
+  },
+  Object {
+    "frets": Object {
+      "1": "BarFret",
+      "3": Object {
+        "3": 4,
+        "4": 3,
+        "5": 2,
+      },
+    },
+    "fullName": "F suspended 4",
+    "shortName": "Fsus4",
+  },
+  Object {
+    "frets": Object {
+      "1": "BarFret",
+      "2": Object {
+        "3": 2,
+      },
+      "3": Object {
+        "5": 3,
+      },
+    },
+    "fullName": "F dominant 7",
+    "shortName": "F7",
+  },
+  Object {
+    "alternativeShortName": "E",
+    "copyFrom": "E",
+    "fullName": "F flat",
+    "shortName": "Fb",
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "5": 1,
+      },
+      "3": Object {
+        "1": 3,
+        "6": 2,
+      },
+    },
+    "fullName": "G major",
+    "isCommonChord": true,
+    "shortName": "G",
+  },
+  Object {
+    "frets": Object {
+      "3": "BarFret",
+      "5": Object {
+        "4": 4,
+        "5": 3,
+      },
+    },
+    "fullName": "G minor",
+    "shortName": "Gm",
+  },
+  Object {
+    "alternativeShortName": "F#",
+    "copyFrom": "F#",
+    "fullName": "G flat",
+    "shortName": "Gb",
+  },
+  Object {
+    "alternativeShortName": "F#m",
+    "copyFrom": "F#m",
+    "fullName": "G flat minor",
+    "shortName": "Gbm",
+  },
+  Object {
+    "alternativeShortName": "Ab",
+    "copyFrom": "Ab",
+    "fullName": "G sharp",
+    "shortName": "G#",
+  },
+  Object {
+    "alternativeShortName": "Abm",
+    "copyFrom": "Abm",
+    "fullName": "G sharp minor",
+    "shortName": "G#m",
+  },
+  Object {
+    "frets": Object {
+      "4": "BarFret",
+      "5": Object {
+        "5": 2,
+      },
+      "6": Object {
+        "4": 3,
+      },
+    },
+    "fullName": "G sharp diminished",
+    "shortName": "G#dim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "2": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "5": 1,
+      },
+      "3": Object {
+        "1": 3,
+        "2": 2,
+      },
+    },
+    "fullName": "G slash B",
+    "shortName": "G/B",
+    "strings": Object {
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "5": 2,
+        "6": 1,
+      },
+      "3": Object {
+        "1": 4,
+        "2": 3,
+      },
+    },
+    "fullName": "G slash F#",
+    "shortName": "G/F#",
+  },
+  Object {
+    "frets": Object {
+      "10": Object {
+        "5": 1,
+      },
+      "11": Object {
+        "2": 3,
+        "4": 2,
+      },
+      "12": Object {
+        "3": 4,
+      },
+    },
+    "fullName": "G diminished",
+    "shortName": "Gdim",
+    "strings": Object {
+      "1": "DoNotPlayString",
+      "6": "DoNotPlayString",
+    },
+  },
+  Object {
+    "frets": Object {
+      "2": Object {
+        "3": 1,
+      },
+      "3": Object {
+        "1": 4,
+        "2": 3,
+        "6": 2,
+      },
+    },
+    "fullName": "G suspended 2",
+    "shortName": "Gsus2",
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "2": 1,
+      },
+      "3": Object {
+        "1": 4,
+        "5": 3,
+        "6": 2,
+      },
+    },
+    "fullName": "G suspended 4",
+    "shortName": "Gsus4",
+  },
+  Object {
+    "frets": Object {
+      "1": Object {
+        "1": 1,
+      },
+      "2": Object {
+        "5": 2,
+      },
+      "3": Object {
+        "6": 3,
+      },
+    },
+    "fullName": "G dominant 7",
+    "shortName": "G7",
+  },
+]
+`;
+
+exports[`keys matches the snapshot 1`] = `
+Array [
+  Object {
+    "chordProgressions": Array [
+      Array [
+        "I",
+        "IV",
+        "V",
+      ],
+      Array [
+        "I",
+        "vi",
+        "IV",
+        "V",
+      ],
+      Array [
+        "ii",
+        "V",
+        "I",
+      ],
+    ],
+    "chords": Object {
+      "I": "A",
+      "IV": "D",
+      "V": "E",
+      "ii": "Bm",
+      "iii": "C#m",
+      "vi": "F#m",
+      "vii": "G#dim",
+    },
+    "fullName": "Key of A major",
+    "isCommonKey": true,
+    "shortName": "A",
+  },
+  Object {
+    "chordProgressions": Array [
+      Array [
+        "i",
+        "VI",
+        "VII",
+      ],
+      Array [
+        "i",
+        "iv",
+        "VII",
+      ],
+      Array [
+        "i",
+        "iv",
+        "v",
+      ],
+      Array [
+        "i",
+        "VI",
+        "III",
+        "VII",
+      ],
+      Array [
+        "ii",
+        "v",
+        "i",
+      ],
+    ],
+    "chords": Object {
+      "III": "C",
+      "VI": "F",
+      "VII": "G",
+      "i": "Am",
+      "ii": "Bdim",
+      "iv": "Dm",
+      "v": "Em",
+    },
+    "fullName": "Key of A minor",
+    "isCommonKey": true,
+    "shortName": "Am",
+  },
+  Object {
+    "chords": Object {
+      "I": "Ab",
+      "IV": "Db",
+      "V": "Eb",
+      "ii": "Bbm",
+      "iii": "Cm",
+      "vi": "Fm",
+      "vii": "Gdim",
+    },
+    "fullName": "Key of A flat",
+    "shortName": "Ab",
+  },
+  Object {
+    "alternativeShortName": "Bb",
+    "chords": Object {
+      "I": "Bb",
+      "IV": "Eb",
+      "V": "F",
+      "VI": "Gm",
+      "ii": "Cm",
+      "iii": "Dm",
+      "vii": "Adim",
+    },
+    "fullName": "Key of A sharp",
+    "shortName": "A#",
+  },
+  Object {
+    "alternativeShortName": "G#",
+    "chords": Object {
+      "III": "Cb",
+      "VI": "Fb",
+      "VII": "Gb",
+      "i": "Abm",
+      "ii": "Bbdim",
+      "iv": "Dbm",
+      "v": "Ebm",
+    },
+    "fullName": "Key of A flat minor",
+    "shortName": "Abm",
+  },
+  Object {
+    "chordProgressions": Array [
+      Array [
+        "I",
+        "IV",
+        "V",
+      ],
+      Array [
+        "I",
+        "vi",
+        "IV",
+        "V",
+      ],
+      Array [
+        "ii",
+        "V",
+        "I",
+      ],
+    ],
+    "chords": Object {
+      "I": "B",
+      "IV": "E",
+      "V": "F#",
+      "ii": "C#m",
+      "iii": "D#m",
+      "vi": "G#m",
+      "vii": "A#dim",
+    },
+    "fullName": "Key of B major",
+    "isCommonKey": true,
+    "shortName": "B",
+  },
+  Object {
+    "chordProgressions": Array [
+      Array [
+        "i",
+        "IV",
+        "VII",
+      ],
+      Array [
+        "i",
+        "iv",
+        "VII",
+      ],
+      Array [
+        "i",
+        "iv",
+        "v",
+      ],
+      Array [
+        "i",
+        "VI",
+        "III",
+        "VII",
+      ],
+      Array [
+        "ii",
+        "v",
+        "i",
+      ],
+    ],
+    "chords": Object {
+      "III": "D",
+      "VI": "G",
+      "VII": "A",
+      "i": "Bm",
+      "ii": "C#dim",
+      "iv": "Em",
+      "v": "F#m",
+    },
+    "fullName": "Key of B minor",
+    "isCommonKey": true,
+    "shortName": "Bm",
+  },
+  Object {
+    "alternativeShortName": "A#",
+    "copyFrom": "A#",
+    "fullName": "Key of B flat",
+    "shortName": "Bb",
+  },
+  Object {
+    "chords": Object {
+      "III": "Db",
+      "VI": "Gb",
+      "VII": "Ab",
+      "i": "Bbm",
+      "ii": "Cdim",
+      "iv": "Ebm",
+      "v": "Fm",
+    },
+    "fullName": "Key of B flat minor",
+    "shortName": "Bbm",
+  },
+  Object {
+    "chordProgressions": Array [
+      Array [
+        "I",
+        "IV",
+        "V",
+      ],
+      Array [
+        "I",
+        "vi",
+        "IV",
+        "V",
+      ],
+      Array [
+        "ii",
+        "V",
+        "I",
+      ],
+    ],
+    "chords": Object {
+      "I": "C",
+      "IV": "F",
+      "V": "G",
+      "ii": "Dm",
+      "iii": "Em",
+      "vi": "Am",
+      "vii": "Bdim",
+    },
+    "fullName": "Key of C major",
+    "isCommonKey": true,
+    "shortName": "C",
+  },
+  Object {
+    "chords": Object {
+      "III": "Eb",
+      "V": "Gm",
+      "VI": "Ab",
+      "VII": "Bb",
+      "i": "Cm",
+      "ii": "Ddim",
+      "iv": "Fm",
+    },
+    "fullName": "Key of C minor",
+    "shortName": "Cm",
+  },
+  Object {
+    "alternativeShortName": "Db",
+    "chords": Object {
+      "I": "C#",
+      "IV": "F#",
+      "V": "G#",
+      "ii": "D#m",
+      "iii": "E#m",
+      "vi": "A#m",
+      "vii": "B#dim",
+    },
+    "fullName": "Key of C sharp",
+    "shortName": "C#",
+  },
+  Object {
+    "chords": Object {
+      "III": "E",
+      "VI": "A",
+      "VII": "B",
+      "i": "C#m",
+      "ii": "D#dim",
+      "iv": "F#m",
+      "v": "G#m",
+    },
+    "fullName": "Key of C sharp minor",
+    "shortName": "C#m",
+  },
+  Object {
+    "chordProgressions": Array [
+      Array [
+        "I",
+        "IV",
+        "V",
+      ],
+      Array [
+        "I",
+        "vi",
+        "IV",
+        "V",
+      ],
+      Array [
+        "ii",
+        "V",
+        "I",
+      ],
+    ],
+    "chords": Object {
+      "I": "D",
+      "IV": "G",
+      "V": "A",
+      "ii": "Em",
+      "iii": "F#m",
+      "vi": "Bm",
+      "vii": "C#dim",
+    },
+    "fullName": "Key of D major",
+    "isCommonKey": true,
+    "shortName": "D",
+  },
+  Object {
+    "chords": Object {
+      "III": "F",
+      "VI": "Bb",
+      "VII": "C",
+      "i": "Dm",
+      "ii": "Edim",
+      "iv": "Gm",
+      "v": "Am",
+    },
+    "fullName": "Key of D minor",
+    "shortName": "Dm",
+  },
+  Object {
+    "chords": Object {
+      "III": "F#",
+      "VI": "B",
+      "VII": "C#",
+      "i": "D#m",
+      "ii": "E#dim",
+      "iv": "G#m",
+      "v": "A#m",
+    },
+    "fullName": "Key of D sharp minor",
+    "shortName": "D#m",
+  },
+  Object {
+    "alternativeShortName": "C#",
+    "chords": Object {
+      "I": "Db",
+      "IV": "Gb",
+      "V": "Ab",
+      "ii": "Ebm",
+      "iii": "Fm",
+      "vi": "Bbm",
+      "vii": "Cdim",
+    },
+    "fullName": "Key of D flat",
+    "shortName": "Db",
+  },
+  Object {
+    "chordProgressions": Array [
+      Array [
+        "I",
+        "IV",
+        "V",
+      ],
+      Array [
+        "I",
+        "vi",
+        "IV",
+        "V",
+      ],
+      Array [
+        "ii",
+        "V",
+        "I",
+      ],
+    ],
+    "chords": Object {
+      "I": "E",
+      "IV": "A",
+      "V": "B",
+      "ii": "F#m",
+      "iii": "G#m",
+      "vi": "C#m",
+      "vii": "D#dim",
+    },
+    "fullName": "Key of E major",
+    "isCommonKey": true,
+    "shortName": "E",
+  },
+  Object {
+    "chordProgressions": Array [
+      Array [
+        "i",
+        "VI",
+        "VII",
+      ],
+      Array [
+        "i",
+        "iv",
+        "VII",
+      ],
+      Array [
+        "i",
+        "iv",
+        "v",
+      ],
+      Array [
+        "i",
+        "VI",
+        "III",
+        "VII",
+      ],
+      Array [
+        "i",
+        "VI",
+        "III",
+        "VII",
+      ],
+      Array [
+        "ii",
+        "v",
+        "i",
+      ],
+    ],
+    "chords": Object {
+      "III": "G",
+      "VI": "C",
+      "VII": "D",
+      "i": "Em",
+      "ii": "F#dim",
+      "iv": "Am",
+      "v": "Bm",
+    },
+    "fullName": "Key of E minor",
+    "isCommonKey": true,
+    "shortName": "Em",
+  },
+  Object {
+    "alternativeShortName": "D#",
+    "chords": Object {
+      "I": "Eb",
+      "IV": "Ab",
+      "V": "Bb",
+      "ii": "Fm",
+      "iii": "Gm",
+      "vi": "Cm",
+      "vii": "Dm",
+    },
+    "fullName": "Key of E flat",
+    "shortName": "Eb",
+  },
+  Object {
+    "chordProgressions": Array [
+      Array [
+        "I",
+        "IV",
+        "V",
+      ],
+      Array [
+        "I",
+        "vi",
+        "IV",
+        "V",
+      ],
+      Array [
+        "ii",
+        "V",
+        "I",
+      ],
+    ],
+    "chords": Object {
+      "I": "F",
+      "IV": "Bb",
+      "V": "C",
+      "ii": "Gm",
+      "iii": "Am",
+      "vi": "Dm",
+      "vii": "Edim",
+    },
+    "fullName": "Key of F major",
+    "isCommonKey": true,
+    "shortName": "F",
+  },
+  Object {
+    "alternativeShortName": "Gb",
+    "chords": Object {
+      "I": "F#",
+      "IV": "B",
+      "V": "C#",
+      "ii": "G#m",
+      "iii": "A#m",
+      "vi": "D#m",
+      "vii": "Fdim",
+    },
+    "fullName": "Key of F sharp",
+    "shortName": "F#",
+  },
+  Object {
+    "chords": Object {
+      "III": "Ab",
+      "VI": "Db",
+      "VII": "Eb",
+      "i": "Fm",
+      "ii": "Gdim",
+      "iv": "Bbm",
+      "v": "Cm",
+    },
+    "fullName": "Key of F minor",
+    "shortName": "Fm",
+  },
+  Object {
+    "chords": Object {
+      "III": "A",
+      "VI": "D",
+      "VII": "E",
+      "i": "F#m",
+      "ii": "G#dim",
+      "iv": "Bm",
+      "v": "C#m",
+    },
+    "fullName": "Key of F sharp minor",
+    "shortName": "F#m",
+  },
+  Object {
+    "chordProgressions": Array [
+      Array [
+        "I",
+        "IV",
+        "V",
+      ],
+      Array [
+        "I",
+        "vi",
+        "IV",
+        "V",
+      ],
+      Array [
+        "ii",
+        "V",
+        "I",
+      ],
+    ],
+    "chords": Object {
+      "I": "G",
+      "IV": "C",
+      "V": "D",
+      "ii": "Am",
+      "iii": "Bm",
+      "vi": "Em",
+      "vii": "F#dim",
+    },
+    "fullName": "Key of G major",
+    "isCommonKey": true,
+    "shortName": "G",
+  },
+  Object {
+    "chords": Object {
+      "III": "Bb",
+      "VI": "Eb",
+      "VII": "F",
+      "i": "Gm",
+      "ii": "Adim",
+      "iv": "Cm",
+      "v": "Dm",
+    },
+    "fullName": "Key of G minor",
+    "shortName": "Gm",
+  },
+  Object {
+    "alternativeShortName": "Abm",
+    "chords": Object {
+      "III": "B",
+      "VI": "E",
+      "VII": "F#",
+      "i": "G#m",
+      "ii": "A#dim",
+      "iv": "C#m",
+      "v": "D#m",
+    },
+    "fullName": "Key of G sharp minor",
+    "shortName": "G#m",
+  },
+]
+`;
