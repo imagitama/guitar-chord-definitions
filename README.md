@@ -66,7 +66,7 @@ Some chords are identical to other chords, so if it has a `copyFrom` property yo
       isCommonKey: true
     }
 
-### Common chords
+### Common keys
 
 A flag to indicate the key is easier for new guitar players.
 

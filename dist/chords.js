@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.doNotPlayString = 'DoNotPlayString';
 exports.barFret = 'BarFret';
 exports.chords = [
@@ -42,7 +42,7 @@ exports.chords = [
         frets: {
             4: exports.barFret,
             5: {
-                3: 2
+                3: 2,
             },
             6: {
                 4: 4,
@@ -108,7 +108,7 @@ exports.chords = [
                 4: 1
             },
             2: {
-                3: 3
+                3: 3,
             }
         }
     },
@@ -225,7 +225,7 @@ exports.chords = [
         fullName: 'B flat diminished',
         shortName: 'Bbdim',
         strings: {
-            6: exports.doNotPlayString
+            6: exports.doNotPlayString,
         },
         frets: {
             1: {
@@ -741,7 +741,7 @@ exports.chords = [
                 2: 4,
                 3: 3,
                 4: 2
-            }
+            },
         }
     },
     {
@@ -1097,4 +1097,4 @@ exports.chords = [
         }
     },
 ];
-exports["default"] = exports.chords;
+exports.default = exports.chords;

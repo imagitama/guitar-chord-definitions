@@ -1,5 +1,5 @@
-import chords from './chords'
-import keys from './keys'
+import chords from '../chords'
+import keys from '../keys'
 
 describe('chords', () => {
   it('matches the snapshot', () => {

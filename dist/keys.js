@@ -1,139 +1,138 @@
 "use strict";
-exports.__esModule = true;
-var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1;
-var I = 'I';
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.I = 'I';
 // const II = 'II'
-var III = 'III';
-var IV = 'IV';
-var V = 'V';
-var VI = 'VI';
-var VII = 'VII';
-var i = 'i';
-var ii = 'ii';
-var iii = 'iii';
-var iv = 'iv';
-var v = 'v';
-var vi = 'vi';
-var vii = 'vii';
+exports.III = 'III';
+exports.IV = 'IV';
+exports.V = 'V';
+exports.VI = 'VI';
+exports.VII = 'VII';
+exports.i = 'i';
+exports.ii = 'ii';
+exports.iii = 'iii';
+exports.iv = 'iv';
+exports.v = 'v';
+exports.vi = 'vi';
+exports.vii = 'vii';
 exports.keys = [
     {
         fullName: 'Key of A major',
         shortName: 'A',
-        chords: (_a = {},
-            _a[I] = 'A',
-            _a[ii] = 'Bm',
-            _a[iii] = 'C#m',
-            _a[IV] = 'D',
-            _a[V] = 'E',
-            _a[vi] = 'F#m',
-            _a[vii] = 'G#dim',
-            _a),
+        chords: {
+            [exports.I]: 'A',
+            [exports.ii]: 'Bm',
+            [exports.iii]: 'C#m',
+            [exports.IV]: 'D',
+            [exports.V]: 'E',
+            [exports.vi]: 'F#m',
+            [exports.vii]: 'G#dim'
+        },
         chordProgressions: [
-            [I, IV, V],
-            [I, vi, IV, V],
-            [ii, V, I]
+            [exports.I, exports.IV, exports.V],
+            [exports.I, exports.vi, exports.IV, exports.V],
+            [exports.ii, exports.V, exports.I]
         ],
         isCommonKey: true
     },
     {
         fullName: 'Key of A minor',
         shortName: 'Am',
-        chords: (_b = {},
-            _b[i] = 'Am',
-            _b[ii] = 'Bdim',
-            _b[III] = 'C',
-            _b[iv] = 'Dm',
-            _b[v] = 'Em',
-            _b[VI] = 'F',
-            _b[VII] = 'G',
-            _b),
+        chords: {
+            [exports.i]: 'Am',
+            [exports.ii]: 'Bdim',
+            [exports.III]: 'C',
+            [exports.iv]: 'Dm',
+            [exports.v]: 'Em',
+            [exports.VI]: 'F',
+            [exports.VII]: 'G'
+        },
         chordProgressions: [
-            [i, VI, VII],
-            [i, iv, VII],
-            [i, iv, v],
-            [i, VI, III, VII],
-            [ii, v, i]
+            [exports.i, exports.VI, exports.VII],
+            [exports.i, exports.iv, exports.VII],
+            [exports.i, exports.iv, exports.v],
+            [exports.i, exports.VI, exports.III, exports.VII],
+            [exports.ii, exports.v, exports.i]
         ],
         isCommonKey: true
     },
     {
         fullName: 'Key of A flat',
         shortName: 'Ab',
-        chords: (_c = {},
-            _c[I] = 'Ab',
-            _c[ii] = 'Bbm',
-            _c[iii] = 'Cm',
-            _c[IV] = 'Db',
-            _c[V] = 'Eb',
-            _c[vi] = 'Fm',
-            _c[vii] = 'Gdim',
-            _c)
+        chords: {
+            [exports.I]: 'Ab',
+            [exports.ii]: 'Bbm',
+            [exports.iii]: 'Cm',
+            [exports.IV]: 'Db',
+            [exports.V]: 'Eb',
+            [exports.vi]: 'Fm',
+            [exports.vii]: 'Gdim'
+        }
     },
     {
         fullName: 'Key of A sharp',
         shortName: 'A#',
         alternativeShortName: 'Bb',
-        chords: (_d = {},
-            _d[I] = 'Bb',
-            _d[ii] = 'Cm',
-            _d[iii] = 'Dm',
-            _d[IV] = 'Eb',
-            _d[V] = 'F',
-            _d[VI] = 'Gm',
-            _d[vii] = 'Adim',
-            _d)
+        chords: {
+            [exports.I]: 'Bb',
+            [exports.ii]: 'Cm',
+            [exports.iii]: 'Dm',
+            [exports.IV]: 'Eb',
+            [exports.V]: 'F',
+            [exports.VI]: 'Gm',
+            [exports.vii]: 'Adim'
+        }
     },
     {
         fullName: 'Key of A flat minor',
         shortName: 'Abm',
         alternativeShortName: 'G#',
-        chords: (_e = {},
-            _e[i] = 'Abm',
-            _e[ii] = 'Bbdim',
-            _e[III] = 'Cb',
-            _e[iv] = 'Dbm',
-            _e[v] = 'Ebm',
-            _e[VI] = 'Fb',
-            _e[VII] = 'Gb',
-            _e)
+        chords: {
+            [exports.i]: 'Abm',
+            [exports.ii]: 'Bbdim',
+            [exports.III]: 'Cb',
+            [exports.iv]: 'Dbm',
+            [exports.v]: 'Ebm',
+            [exports.VI]: 'Fb',
+            [exports.VII]: 'Gb'
+        }
     },
     {
         fullName: 'Key of B major',
         shortName: 'B',
-        chords: (_f = {},
-            _f[I] = 'B',
-            _f[ii] = 'C#m',
-            _f[iii] = 'D#m',
-            _f[IV] = 'E',
-            _f[V] = 'F#',
-            _f[vi] = 'G#m',
-            _f[vii] = 'A#dim',
-            _f),
+        chords: {
+            [exports.I]: 'B',
+            [exports.ii]: 'C#m',
+            [exports.iii]: 'D#m',
+            [exports.IV]: 'E',
+            [exports.V]: 'F#',
+            [exports.vi]: 'G#m',
+            [exports.vii]: 'A#dim'
+        },
         chordProgressions: [
-            [I, IV, V],
-            [I, vi, IV, V],
-            [ii, V, I]
+            [exports.I, exports.IV, exports.V],
+            [exports.I, exports.vi, exports.IV, exports.V],
+            [exports.ii, exports.V, exports.I]
         ],
         isCommonKey: true
     },
     {
         fullName: 'Key of B minor',
         shortName: 'Bm',
-        chords: (_g = {},
-            _g[i] = 'Bm',
-            _g[ii] = 'C#dim',
-            _g[III] = 'D',
-            _g[iv] = 'Em',
-            _g[v] = 'F#m',
-            _g[VI] = 'G',
-            _g[VII] = 'A',
-            _g),
+        chords: {
+            [exports.i]: 'Bm',
+            [exports.ii]: 'C#dim',
+            [exports.III]: 'D',
+            [exports.iv]: 'Em',
+            [exports.v]: 'F#m',
+            [exports.VI]: 'G',
+            [exports.VII]: 'A'
+        },
         chordProgressions: [
-            [i, IV, VII],
-            [i, iv, VII],
-            [i, iv, v],
-            [i, VI, III, VII],
-            [ii, v, i]
+            [exports.i, exports.IV, exports.VII],
+            [exports.i, exports.iv, exports.VII],
+            [exports.i, exports.iv, exports.v],
+            [exports.i, exports.VI, exports.III, exports.VII],
+            [exports.ii, exports.v, exports.i]
         ],
         isCommonKey: true
     },
@@ -146,172 +145,172 @@ exports.keys = [
     {
         fullName: 'Key of B flat minor',
         shortName: 'Bbm',
-        chords: (_h = {},
-            _h[i] = 'Bbm',
-            _h[ii] = 'Cdim',
-            _h[III] = 'Db',
-            _h[iv] = 'Ebm',
-            _h[v] = 'Fm',
-            _h[VI] = 'Gb',
-            _h[VII] = 'Ab',
-            _h)
+        chords: {
+            [exports.i]: 'Bbm',
+            [exports.ii]: 'Cdim',
+            [exports.III]: 'Db',
+            [exports.iv]: 'Ebm',
+            [exports.v]: 'Fm',
+            [exports.VI]: 'Gb',
+            [exports.VII]: 'Ab'
+        }
     },
     {
         fullName: 'Key of C major',
         shortName: 'C',
-        chords: (_j = {},
-            _j[I] = 'C',
-            _j[ii] = 'Dm',
-            _j[iii] = 'Em',
-            _j[IV] = 'F',
-            _j[V] = 'G',
-            _j[vi] = 'Am',
-            _j[vii] = 'Bdim',
-            _j),
+        chords: {
+            [exports.I]: 'C',
+            [exports.ii]: 'Dm',
+            [exports.iii]: 'Em',
+            [exports.IV]: 'F',
+            [exports.V]: 'G',
+            [exports.vi]: 'Am',
+            [exports.vii]: 'Bdim'
+        },
         chordProgressions: [
-            [I, IV, V],
-            [I, vi, IV, V],
-            [ii, V, I]
+            [exports.I, exports.IV, exports.V],
+            [exports.I, exports.vi, exports.IV, exports.V],
+            [exports.ii, exports.V, exports.I]
         ],
         isCommonKey: true
     },
     {
         fullName: 'Key of C minor',
         shortName: 'Cm',
-        chords: (_k = {},
-            _k[i] = 'Cm',
-            _k[ii] = 'Ddim',
-            _k[III] = 'Eb',
-            _k[iv] = 'Fm',
-            _k[V] = 'Gm',
-            _k[VI] = 'Ab',
-            _k[VII] = 'Bb',
-            _k)
+        chords: {
+            [exports.i]: 'Cm',
+            [exports.ii]: 'Ddim',
+            [exports.III]: 'Eb',
+            [exports.iv]: 'Fm',
+            [exports.V]: 'Gm',
+            [exports.VI]: 'Ab',
+            [exports.VII]: 'Bb'
+        }
     },
     {
         fullName: 'Key of C sharp',
         shortName: 'C#',
         alternativeShortName: 'Db',
-        chords: (_l = {},
-            _l[I] = 'C#',
-            _l[ii] = 'D#m',
-            _l[iii] = 'E#m',
-            _l[IV] = 'F#',
-            _l[V] = 'G#',
-            _l[vi] = 'A#m',
-            _l[vii] = 'B#dim',
-            _l)
+        chords: {
+            [exports.I]: 'C#',
+            [exports.ii]: 'D#m',
+            [exports.iii]: 'E#m',
+            [exports.IV]: 'F#',
+            [exports.V]: 'G#',
+            [exports.vi]: 'A#m',
+            [exports.vii]: 'B#dim'
+        }
     },
     {
         fullName: 'Key of C sharp minor',
         shortName: 'C#m',
-        chords: (_m = {},
-            _m[i] = 'C#m',
-            _m[ii] = 'D#dim',
-            _m[III] = 'E',
-            _m[iv] = 'F#m',
-            _m[v] = 'G#m',
-            _m[VI] = 'A',
-            _m[VII] = 'B',
-            _m)
+        chords: {
+            [exports.i]: 'C#m',
+            [exports.ii]: 'D#dim',
+            [exports.III]: 'E',
+            [exports.iv]: 'F#m',
+            [exports.v]: 'G#m',
+            [exports.VI]: 'A',
+            [exports.VII]: 'B'
+        }
     },
     {
         fullName: 'Key of D major',
         shortName: 'D',
-        chords: (_o = {},
-            _o[I] = 'D',
-            _o[ii] = 'Em',
-            _o[iii] = 'F#m',
-            _o[IV] = 'G',
-            _o[V] = 'A',
-            _o[vi] = 'Bm',
-            _o[vii] = 'C#dim',
-            _o),
+        chords: {
+            [exports.I]: 'D',
+            [exports.ii]: 'Em',
+            [exports.iii]: 'F#m',
+            [exports.IV]: 'G',
+            [exports.V]: 'A',
+            [exports.vi]: 'Bm',
+            [exports.vii]: 'C#dim'
+        },
         chordProgressions: [
-            [I, IV, V],
-            [I, vi, IV, V],
-            [ii, V, I]
+            [exports.I, exports.IV, exports.V],
+            [exports.I, exports.vi, exports.IV, exports.V],
+            [exports.ii, exports.V, exports.I]
         ],
         isCommonKey: true
     },
     {
         fullName: 'Key of D minor',
         shortName: 'Dm',
-        chords: (_p = {},
-            _p[i] = 'Dm',
-            _p[ii] = 'Edim',
-            _p[III] = 'F',
-            _p[iv] = 'Gm',
-            _p[v] = 'Am',
-            _p[VI] = 'Bb',
-            _p[VII] = 'C',
-            _p)
+        chords: {
+            [exports.i]: 'Dm',
+            [exports.ii]: 'Edim',
+            [exports.III]: 'F',
+            [exports.iv]: 'Gm',
+            [exports.v]: 'Am',
+            [exports.VI]: 'Bb',
+            [exports.VII]: 'C'
+        }
     },
     {
         fullName: 'Key of D sharp minor',
         shortName: 'D#m',
-        chords: (_q = {},
-            _q[i] = 'D#m',
-            _q[ii] = 'E#dim',
-            _q[III] = 'F#',
-            _q[iv] = 'G#m',
-            _q[v] = 'A#m',
-            _q[VI] = 'B',
-            _q[VII] = 'C#',
-            _q)
+        chords: {
+            [exports.i]: 'D#m',
+            [exports.ii]: 'E#dim',
+            [exports.III]: 'F#',
+            [exports.iv]: 'G#m',
+            [exports.v]: 'A#m',
+            [exports.VI]: 'B',
+            [exports.VII]: 'C#'
+        }
     },
     {
         fullName: 'Key of D flat',
         shortName: 'Db',
         alternativeShortName: 'C#',
-        chords: (_r = {},
-            _r[I] = 'Db',
-            _r[ii] = 'Ebm',
-            _r[iii] = 'Fm',
-            _r[IV] = 'Gb',
-            _r[V] = 'Ab',
-            _r[vi] = 'Bbm',
-            _r[vii] = 'Cdim',
-            _r)
+        chords: {
+            [exports.I]: 'Db',
+            [exports.ii]: 'Ebm',
+            [exports.iii]: 'Fm',
+            [exports.IV]: 'Gb',
+            [exports.V]: 'Ab',
+            [exports.vi]: 'Bbm',
+            [exports.vii]: 'Cdim'
+        }
     },
     {
         fullName: 'Key of E major',
         shortName: 'E',
-        chords: (_s = {},
-            _s[I] = 'E',
-            _s[ii] = 'F#m',
-            _s[iii] = 'G#m',
-            _s[IV] = 'A',
-            _s[V] = 'B',
-            _s[vi] = 'C#m',
-            _s[vii] = 'D#dim',
-            _s),
+        chords: {
+            [exports.I]: 'E',
+            [exports.ii]: 'F#m',
+            [exports.iii]: 'G#m',
+            [exports.IV]: 'A',
+            [exports.V]: 'B',
+            [exports.vi]: 'C#m',
+            [exports.vii]: 'D#dim'
+        },
         chordProgressions: [
-            [I, IV, V],
-            [I, vi, IV, V],
-            [ii, V, I]
+            [exports.I, exports.IV, exports.V],
+            [exports.I, exports.vi, exports.IV, exports.V],
+            [exports.ii, exports.V, exports.I]
         ],
         isCommonKey: true
     },
     {
         fullName: 'Key of E minor',
         shortName: 'Em',
-        chords: (_t = {},
-            _t[i] = 'Em',
-            _t[ii] = 'F#dim',
-            _t[III] = 'G',
-            _t[iv] = 'Am',
-            _t[v] = 'Bm',
-            _t[VI] = 'C',
-            _t[VII] = 'D',
-            _t),
+        chords: {
+            [exports.i]: 'Em',
+            [exports.ii]: 'F#dim',
+            [exports.III]: 'G',
+            [exports.iv]: 'Am',
+            [exports.v]: 'Bm',
+            [exports.VI]: 'C',
+            [exports.VII]: 'D'
+        },
         chordProgressions: [
-            [i, VI, VII],
-            [i, iv, VII],
-            [i, iv, v],
-            [i, VI, III, VII],
-            [i, VI, III, VII],
-            [ii, v, i]
+            [exports.i, exports.VI, exports.VII],
+            [exports.i, exports.iv, exports.VII],
+            [exports.i, exports.iv, exports.v],
+            [exports.i, exports.VI, exports.III, exports.VII],
+            [exports.i, exports.VI, exports.III, exports.VII],
+            [exports.ii, exports.v, exports.i]
         ],
         isCommonKey: true
     },
@@ -319,32 +318,32 @@ exports.keys = [
         fullName: 'Key of E flat',
         shortName: 'Eb',
         alternativeShortName: 'D#',
-        chords: (_u = {},
-            _u[I] = 'Eb',
-            _u[ii] = 'Fm',
-            _u[iii] = 'Gm',
-            _u[IV] = 'Ab',
-            _u[V] = 'Bb',
-            _u[vi] = 'Cm',
-            _u[vii] = 'Dm',
-            _u)
+        chords: {
+            [exports.I]: 'Eb',
+            [exports.ii]: 'Fm',
+            [exports.iii]: 'Gm',
+            [exports.IV]: 'Ab',
+            [exports.V]: 'Bb',
+            [exports.vi]: 'Cm',
+            [exports.vii]: 'Dm'
+        }
     },
     {
         fullName: 'Key of F major',
         shortName: 'F',
-        chords: (_v = {},
-            _v[I] = 'F',
-            _v[ii] = 'Gm',
-            _v[iii] = 'Am',
-            _v[IV] = 'Bb',
-            _v[V] = 'C',
-            _v[vi] = 'Dm',
-            _v[vii] = 'Edim',
-            _v),
+        chords: {
+            [exports.I]: 'F',
+            [exports.ii]: 'Gm',
+            [exports.iii]: 'Am',
+            [exports.IV]: 'Bb',
+            [exports.V]: 'C',
+            [exports.vi]: 'Dm',
+            [exports.vii]: 'Edim'
+        },
         chordProgressions: [
-            [I, IV, V],
-            [I, vi, IV, V],
-            [ii, V, I]
+            [exports.I, exports.IV, exports.V],
+            [exports.I, exports.vi, exports.IV, exports.V],
+            [exports.ii, exports.V, exports.I]
         ],
         isCommonKey: true
     },
@@ -352,87 +351,87 @@ exports.keys = [
         fullName: 'Key of F sharp',
         shortName: 'F#',
         alternativeShortName: 'Gb',
-        chords: (_w = {},
-            _w[I] = 'F#',
-            _w[ii] = 'G#m',
-            _w[iii] = 'A#m',
-            _w[IV] = 'B',
-            _w[V] = 'C#',
-            _w[vi] = 'D#m',
-            _w[vii] = 'Fdim',
-            _w)
+        chords: {
+            [exports.I]: 'F#',
+            [exports.ii]: 'G#m',
+            [exports.iii]: 'A#m',
+            [exports.IV]: 'B',
+            [exports.V]: 'C#',
+            [exports.vi]: 'D#m',
+            [exports.vii]: 'Fdim'
+        }
     },
     {
         fullName: 'Key of F minor',
         shortName: 'Fm',
-        chords: (_x = {},
-            _x[i] = 'Fm',
-            _x[ii] = 'Gdim',
-            _x[III] = 'Ab',
-            _x[iv] = 'Bbm',
-            _x[v] = 'Cm',
-            _x[VI] = 'Db',
-            _x[VII] = 'Eb',
-            _x)
+        chords: {
+            [exports.i]: 'Fm',
+            [exports.ii]: 'Gdim',
+            [exports.III]: 'Ab',
+            [exports.iv]: 'Bbm',
+            [exports.v]: 'Cm',
+            [exports.VI]: 'Db',
+            [exports.VII]: 'Eb'
+        }
     },
     {
         fullName: 'Key of F sharp minor',
         shortName: 'F#m',
-        chords: (_y = {},
-            _y[i] = 'F#m',
-            _y[ii] = 'G#dim',
-            _y[III] = 'A',
-            _y[iv] = 'Bm',
-            _y[v] = 'C#m',
-            _y[VI] = 'D',
-            _y[VII] = 'E',
-            _y)
+        chords: {
+            [exports.i]: 'F#m',
+            [exports.ii]: 'G#dim',
+            [exports.III]: 'A',
+            [exports.iv]: 'Bm',
+            [exports.v]: 'C#m',
+            [exports.VI]: 'D',
+            [exports.VII]: 'E'
+        }
     },
     {
         fullName: 'Key of G major',
         shortName: 'G',
-        chords: (_z = {},
-            _z[I] = 'G',
-            _z[ii] = 'Am',
-            _z[iii] = 'Bm',
-            _z[IV] = 'C',
-            _z[V] = 'D',
-            _z[vi] = 'Em',
-            _z[vii] = 'F#dim',
-            _z),
+        chords: {
+            [exports.I]: 'G',
+            [exports.ii]: 'Am',
+            [exports.iii]: 'Bm',
+            [exports.IV]: 'C',
+            [exports.V]: 'D',
+            [exports.vi]: 'Em',
+            [exports.vii]: 'F#dim'
+        },
         chordProgressions: [
-            [I, IV, V],
-            [I, vi, IV, V],
-            [ii, V, I]
+            [exports.I, exports.IV, exports.V],
+            [exports.I, exports.vi, exports.IV, exports.V],
+            [exports.ii, exports.V, exports.I]
         ],
         isCommonKey: true
     },
     {
         fullName: 'Key of G minor',
         shortName: 'Gm',
-        chords: (_0 = {},
-            _0[i] = 'Gm',
-            _0[ii] = 'Adim',
-            _0[III] = 'Bb',
-            _0[iv] = 'Cm',
-            _0[v] = 'Dm',
-            _0[VI] = 'Eb',
-            _0[VII] = 'F',
-            _0)
+        chords: {
+            [exports.i]: 'Gm',
+            [exports.ii]: 'Adim',
+            [exports.III]: 'Bb',
+            [exports.iv]: 'Cm',
+            [exports.v]: 'Dm',
+            [exports.VI]: 'Eb',
+            [exports.VII]: 'F'
+        }
     },
     {
         fullName: 'Key of G sharp minor',
         shortName: 'G#m',
         alternativeShortName: 'Abm',
-        chords: (_1 = {},
-            _1[i] = 'G#m',
-            _1[ii] = 'A#dim',
-            _1[III] = 'B',
-            _1[iv] = 'C#m',
-            _1[v] = 'D#m',
-            _1[VI] = 'E',
-            _1[VII] = 'F#',
-            _1)
+        chords: {
+            [exports.i]: 'G#m',
+            [exports.ii]: 'A#dim',
+            [exports.III]: 'B',
+            [exports.iv]: 'C#m',
+            [exports.v]: 'D#m',
+            [exports.VI]: 'E',
+            [exports.VII]: 'F#'
+        }
     },
 ];
-exports["default"] = exports.keys;
+exports.default = exports.keys;
