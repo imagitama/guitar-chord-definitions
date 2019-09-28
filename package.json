@@ -1,6 +1,6 @@
 {
   "name": "guitar-chord-definitions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Definitions for guitar chords and keys.",
   "main": "dist/index.js",
   "scripts": {
