@@ -1,26 +1,29 @@
-export const doNotPlayString = 'DoNotPlayString'
-export const barFret = 'BarFret'
+export const doNotPlayString = "DoNotPlayString";
+export const barFret = "BarFret";
 
 export interface Chord {
-  fullName: string
-  shortName: string
-  alternativeShortName?: string
+  fullName: string;
+  shortName: string;
+  plaintextShortName?: string;
+  alternativeShortName?: string;
   strings?: {
-    [stringNumber: number]: 'DoNotPlayString'
-  }
+    [stringNumber: number]: "DoNotPlayString";
+  };
   frets?: {
-    [fretNumber: number]: {
-      [stringNumber: number]: number
-    } | 'BarFret'
-  }
-  isCommonChord?: boolean
-  copyFrom?: string
+    [fretNumber: number]:
+      | {
+          [stringNumber: number]: number;
+        }
+      | "BarFret";
+  };
+  isCommonChord?: boolean;
+  copyFrom?: string;
 }
 
 export const chords: Chord[] = [
   {
-    fullName: 'A major',
-    shortName: 'A',
+    fullName: "A major",
+    shortName: "A",
     strings: {
       6: doNotPlayString
     },
@@ -35,8 +38,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'A minor',
-    shortName: 'Am',
+    fullName: "A minor",
+    shortName: "Am",
     strings: {
       6: doNotPlayString
     },
@@ -53,13 +56,13 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'A flat',
-    shortName: 'Ab',
-    alternativeShortName: 'G#',
+    fullName: "A flat",
+    shortName: "Ab",
+    alternativeShortName: "G#",
     frets: {
       4: barFret,
       5: {
-        3: 2,
+        3: 2
       },
       6: {
         4: 4,
@@ -69,9 +72,9 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'A flat minor',
-    shortName: 'Abm',
-    alternativeShortName: 'G#m',
+    fullName: "A flat minor",
+    shortName: "Abm",
+    alternativeShortName: "G#m",
     frets: {
       4: barFret,
       6: {
@@ -82,9 +85,9 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'A sharp',
-    shortName: 'A#',
-    alternativeShortName: 'Bb',
+    fullName: "A sharp",
+    shortName: "A#",
+    alternativeShortName: "Bb",
     strings: {
       6: doNotPlayString
     },
@@ -99,8 +102,9 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'A sharp minor',
-    shortName: 'A#m',
+    fullName: "A sharp minor",
+    shortName: "A#m",
+    alternativeShortName: "Bbm",
     strings: {
       6: doNotPlayString
     },
@@ -117,8 +121,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'A diminished',
-    shortName: 'Adim',
+    fullName: "A diminished",
+    shortName: "Adim",
     strings: {
       1: doNotPlayString,
       6: doNotPlayString
@@ -129,14 +133,14 @@ export const chords: Chord[] = [
         4: 1
       },
       2: {
-        3: 3,
+        3: 3
       }
     }
   },
 
   {
-    fullName: 'A sharp diminished',
-    shortName: 'A#dim',
+    fullName: "A sharp diminished",
+    shortName: "A#dim",
     strings: {
       1: doNotPlayString,
       6: doNotPlayString
@@ -156,8 +160,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'A suspended 2',
-    shortName: 'Asus2',
+    fullName: "A suspended 2",
+    shortName: "Asus2",
     strings: {
       6: doNotPlayString
     },
@@ -170,8 +174,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'A suspended 4',
-    shortName: 'Asus4',
+    fullName: "A suspended 4",
+    shortName: "Asus4",
     strings: {
       6: doNotPlayString
     },
@@ -187,8 +191,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'A dominant 7',
-    shortName: 'A7',
+    fullName: "A dominant 7",
+    shortName: "A7",
     strings: {
       6: doNotPlayString
     },
@@ -201,8 +205,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'B major',
-    shortName: 'B',
+    fullName: "B major",
+    shortName: "B",
     strings: {
       6: doNotPlayString
     },
@@ -218,8 +222,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'B minor',
-    shortName: 'Bm',
+    fullName: "B minor",
+    shortName: "Bm",
     strings: {
       6: doNotPlayString
     },
@@ -237,25 +241,25 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'B flat',
-    shortName: 'Bb',
-    alternativeShortName: 'A#',
-    copyFrom: 'A#',
+    fullName: "B flat",
+    shortName: "Bb",
+    alternativeShortName: "A#",
+    copyFrom: "A#",
     isCommonChord: true
   },
 
   {
-    fullName: 'B flat minor',
-    shortName: 'Bbm',
-    alternativeShortName: 'A#m',
-    copyFrom: 'A#m'
+    fullName: "B flat minor",
+    shortName: "Bbm",
+    alternativeShortName: "A#m",
+    copyFrom: "A#m"
   },
 
   {
-    fullName: 'B flat diminished',
-    shortName: 'Bbdim',
+    fullName: "B flat diminished",
+    shortName: "Bbdim",
     strings: {
-      6: doNotPlayString,
+      6: doNotPlayString
     },
     frets: {
       1: {
@@ -272,8 +276,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'B diminished',
-    shortName: 'Bdim',
+    fullName: "B diminished",
+    shortName: "Bdim",
     strings: {
       1: doNotPlayString,
       6: doNotPlayString
@@ -293,8 +297,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'B suspended 2',
-    shortName: 'Bsus2',
+    fullName: "B suspended 2",
+    shortName: "Bsus2",
     strings: {
       6: doNotPlayString
     },
@@ -308,8 +312,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'B suspended 4',
-    shortName: 'Bsus4',
+    fullName: "B suspended 4",
+    shortName: "Bsus4",
     strings: {
       6: doNotPlayString
     },
@@ -326,8 +330,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'B dominant 7',
-    shortName: 'B7',
+    fullName: "B dominant 7",
+    shortName: "B7",
     strings: {
       6: doNotPlayString
     },
@@ -344,8 +348,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C major',
-    shortName: 'C',
+    fullName: "C major",
+    shortName: "C",
     strings: {
       6: doNotPlayString
     },
@@ -364,8 +368,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C minor',
-    shortName: 'Cm',
+    fullName: "C minor",
+    shortName: "Cm",
     strings: {
       6: doNotPlayString
     },
@@ -382,9 +386,9 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C sharp',
-    shortName: 'C#',
-    alternativeShortName: 'Db',
+    fullName: "C sharp",
+    shortName: "C#",
+    alternativeShortName: "Db",
     strings: {
       6: doNotPlayString
     },
@@ -399,8 +403,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C sharp minor',
-    shortName: 'C#m',
+    fullName: "C sharp minor",
+    shortName: "C#m",
     strings: {
       6: doNotPlayString
     },
@@ -417,8 +421,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C sharp diminished',
-    shortName: 'C#dim',
+    fullName: "C sharp diminished",
+    shortName: "C#dim",
     strings: {
       1: doNotPlayString,
       6: doNotPlayString
@@ -438,8 +442,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C slash B',
-    shortName: 'C/B',
+    fullName: "C slash B",
+    shortName: "C/B",
     strings: {
       6: doNotPlayString
     },
@@ -455,8 +459,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C diminished',
-    shortName: 'Cdim',
+    fullName: "C diminished",
+    shortName: "Cdim",
     strings: {
       1: doNotPlayString,
       6: doNotPlayString
@@ -476,8 +480,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C ninth',
-    shortName: 'C9',
+    fullName: "C ninth",
+    shortName: "C9",
     strings: {
       6: doNotPlayString
     },
@@ -494,8 +498,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C add 9',
-    shortName: 'Cadd9',
+    fullName: "C add 9",
+    shortName: "Cadd9",
     strings: {
       6: doNotPlayString
     },
@@ -511,8 +515,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C suspended 2',
-    shortName: 'Csus2',
+    fullName: "C suspended 2",
+    shortName: "Csus2",
     strings: {
       6: doNotPlayString
     },
@@ -527,8 +531,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C suspended 4',
-    shortName: 'Csus4',
+    fullName: "C suspended 4",
+    shortName: "Csus4",
     strings: {
       6: doNotPlayString
     },
@@ -544,8 +548,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C dominant 7',
-    shortName: 'C7',
+    fullName: "C dominant 7",
+    shortName: "C7",
     strings: {
       6: doNotPlayString
     },
@@ -564,15 +568,15 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'C flat',
-    shortName: 'Cb',
-    alternativeShortName: 'B',
-    copyFrom: 'B'
+    fullName: "C flat",
+    shortName: "Cb",
+    alternativeShortName: "B",
+    copyFrom: "B"
   },
 
   {
-    fullName: 'D major',
-    shortName: 'D',
+    fullName: "D major",
+    shortName: "D",
     strings: {
       5: doNotPlayString,
       6: doNotPlayString
@@ -590,8 +594,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'D minor',
-    shortName: 'Dm',
+    fullName: "D minor",
+    shortName: "Dm",
     strings: {
       5: doNotPlayString,
       6: doNotPlayString
@@ -611,16 +615,16 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'D sharp',
-    shortName: 'D#',
-    alternativeShortName: 'Eb',
-    copyFrom: 'Eb'
+    fullName: "D sharp",
+    shortName: "D#",
+    alternativeShortName: "Eb",
+    copyFrom: "Eb"
   },
 
   {
-    fullName: 'D sharp minor',
-    shortName: 'D#m',
-    alternativeShortName: 'Ebm',
+    fullName: "D sharp minor",
+    shortName: "D#m",
+    alternativeShortName: "Ebm",
     strings: {
       6: doNotPlayString
     },
@@ -637,8 +641,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'D sharp diminished',
-    shortName: 'D#dim',
+    fullName: "D sharp diminished",
+    shortName: "D#dim",
     strings: {
       1: doNotPlayString,
       6: doNotPlayString
@@ -658,22 +662,22 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'D flat',
-    shortName: 'Db',
-    alternativeShortName: 'C#',
-    copyFrom: 'C#'
+    fullName: "D flat",
+    shortName: "Db",
+    alternativeShortName: "C#",
+    copyFrom: "C#"
   },
 
   {
-    fullName: 'D flat minor',
-    shortName: 'Dbm',
-    alternativeShortName: 'C#m',
-    copyFrom: 'C#m'
+    fullName: "D flat minor",
+    shortName: "Dbm",
+    alternativeShortName: "C#m",
+    copyFrom: "C#m"
   },
 
   {
-    fullName: 'D diminished',
-    shortName: 'Ddim',
+    fullName: "D diminished",
+    shortName: "Ddim",
     strings: {
       1: doNotPlayString,
       6: doNotPlayString
@@ -693,8 +697,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'D suspended 2',
-    shortName: 'Dsus2',
+    fullName: "D suspended 2",
+    shortName: "Dsus2",
     strings: {
       5: doNotPlayString,
       6: doNotPlayString
@@ -710,8 +714,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'D suspended 4',
-    shortName: 'Dsus4',
+    fullName: "D suspended 4",
+    shortName: "Dsus4",
     strings: {
       5: doNotPlayString,
       6: doNotPlayString
@@ -728,8 +732,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'D dominant 7',
-    shortName: 'D7',
+    fullName: "D dominant 7",
+    shortName: "D7",
     strings: {
       5: doNotPlayString,
       6: doNotPlayString
@@ -746,8 +750,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'E major',
-    shortName: 'E',
+    fullName: "E major",
+    shortName: "E",
     frets: {
       1: {
         3: 1
@@ -761,8 +765,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'E minor',
-    shortName: 'Em',
+    fullName: "E minor",
+    shortName: "Em",
     frets: {
       2: {
         4: 2,
@@ -773,8 +777,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'E sharp diminished',
-    shortName: 'E#dim',
+    fullName: "E sharp diminished",
+    shortName: "E#dim",
     strings: {
       1: doNotPlayString,
       6: doNotPlayString
@@ -794,29 +798,29 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'E flat',
-    shortName: 'Eb',
-    alternativeShortName: 'D#',
+    fullName: "E flat",
+    shortName: "Eb",
+    alternativeShortName: "D#",
     frets: {
       6: barFret,
       8: {
         2: 4,
         3: 3,
         4: 2
-      },
+      }
     }
   },
 
   {
-    fullName: 'E flat minor',
-    shortName: 'Ebm',
-    alternativeShortName: 'D#m',
-    copyFrom: 'D#m'
+    fullName: "E flat minor",
+    shortName: "Ebm",
+    alternativeShortName: "D#m",
+    copyFrom: "D#m"
   },
 
   {
-    fullName: 'E diminished',
-    shortName: 'Edim',
+    fullName: "E diminished",
+    shortName: "Edim",
     strings: {
       1: doNotPlayString,
       2: doNotPlayString
@@ -832,8 +836,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'E suspended 2',
-    shortName: 'Esus2',
+    fullName: "E suspended 2",
+    shortName: "Esus2",
     frets: {
       2: {
         5: 1
@@ -846,8 +850,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'E suspended 4',
-    shortName: 'Esus4',
+    fullName: "E suspended 4",
+    shortName: "Esus4",
     frets: {
       2: {
         3: 4,
@@ -858,8 +862,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'E dominant 7',
-    shortName: 'E7',
+    fullName: "E dominant 7",
+    shortName: "E7",
     frets: {
       1: {
         3: 1
@@ -871,8 +875,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'F major',
-    shortName: 'F',
+    fullName: "F major",
+    shortName: "F",
     frets: {
       1: barFret,
       2: {
@@ -887,8 +891,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'F minor',
-    shortName: 'Fm',
+    fullName: "F minor",
+    shortName: "Fm",
     frets: {
       1: barFret,
       3: {
@@ -899,9 +903,9 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'F sharp',
-    shortName: 'F#',
-    alternativeShortName: 'Gb',
+    fullName: "F sharp",
+    shortName: "F#",
+    alternativeShortName: "Gb",
     frets: {
       2: barFret,
       3: {
@@ -915,9 +919,9 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'F sharp minor',
-    shortName: 'F#m',
-    alternativeShortName: 'Gbm',
+    fullName: "F sharp minor",
+    shortName: "F#m",
+    alternativeShortName: "Gbm",
     frets: {
       2: barFret,
       4: {
@@ -928,8 +932,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'F sharp diminished',
-    shortName: 'F#dim',
+    fullName: "F sharp diminished",
+    shortName: "F#dim",
     strings: {
       1: doNotPlayString,
       6: doNotPlayString
@@ -949,8 +953,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'F major diminished',
-    shortName: 'Fdim',
+    fullName: "F major diminished",
+    shortName: "Fdim",
     strings: {
       1: doNotPlayString,
       6: doNotPlayString
@@ -970,8 +974,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'F suspended 2',
-    shortName: 'Fsus2',
+    fullName: "F suspended 2",
+    shortName: "Fsus2",
     frets: {
       8: barFret,
       10: {
@@ -982,8 +986,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'F suspended 4',
-    shortName: 'Fsus4',
+    fullName: "F suspended 4",
+    shortName: "Fsus4",
     frets: {
       1: barFret,
       3: {
@@ -995,8 +999,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'F dominant 7',
-    shortName: 'F7',
+    fullName: "F dominant 7",
+    shortName: "F7",
     frets: {
       1: barFret,
       2: {
@@ -1009,15 +1013,15 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'F flat',
-    shortName: 'Fb',
-    alternativeShortName: 'E',
-    copyFrom: 'E'
+    fullName: "F flat",
+    shortName: "Fb",
+    alternativeShortName: "E",
+    copyFrom: "E"
   },
 
   {
-    fullName: 'G major',
-    shortName: 'G',
+    fullName: "G major",
+    shortName: "G",
     frets: {
       2: {
         5: 1
@@ -1031,8 +1035,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'G minor',
-    shortName: 'Gm',
+    fullName: "G minor",
+    shortName: "Gm",
     frets: {
       3: barFret,
       5: {
@@ -1043,36 +1047,36 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'G flat',
-    shortName: 'Gb',
-    alternativeShortName: 'F#',
-    copyFrom: 'F#'
+    fullName: "G flat",
+    shortName: "Gb",
+    alternativeShortName: "F#",
+    copyFrom: "F#"
   },
 
   {
-    fullName: 'G flat minor',
-    shortName: 'Gbm',
-    alternativeShortName: 'F#m',
-    copyFrom: 'F#m'
+    fullName: "G flat minor",
+    shortName: "Gbm",
+    alternativeShortName: "F#m",
+    copyFrom: "F#m"
   },
 
   {
-    fullName: 'G sharp',
-    shortName: 'G#',
-    alternativeShortName: 'Ab',
-    copyFrom: 'Ab'
+    fullName: "G sharp",
+    shortName: "G#",
+    alternativeShortName: "Ab",
+    copyFrom: "Ab"
   },
 
   {
-    fullName: 'G sharp minor',
-    shortName: 'G#m',
-    alternativeShortName: 'Abm',
-    copyFrom: 'Abm'
+    fullName: "G sharp minor",
+    shortName: "G#m",
+    alternativeShortName: "Abm",
+    copyFrom: "Abm"
   },
 
   {
-    fullName: 'G sharp diminished',
-    shortName: 'G#dim',
+    fullName: "G sharp diminished",
+    shortName: "G#dim",
     strings: {
       1: doNotPlayString,
       2: doNotPlayString
@@ -1089,8 +1093,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'G slash B',
-    shortName: 'G/B',
+    fullName: "G slash B",
+    shortName: "G/B",
     strings: {
       6: doNotPlayString
     },
@@ -1106,8 +1110,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'G slash F#',
-    shortName: 'G/F#',
+    fullName: "G slash F#",
+    shortName: "G/F#",
     frets: {
       2: {
         5: 2,
@@ -1121,8 +1125,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'G diminished',
-    shortName: 'Gdim',
+    fullName: "G diminished",
+    shortName: "Gdim",
     strings: {
       1: doNotPlayString,
       6: doNotPlayString
@@ -1142,8 +1146,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'G suspended 2',
-    shortName: 'Gsus2',
+    fullName: "G suspended 2",
+    shortName: "Gsus2",
     frets: {
       2: {
         3: 1
@@ -1157,8 +1161,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'G suspended 4',
-    shortName: 'Gsus4',
+    fullName: "G suspended 4",
+    shortName: "Gsus4",
     frets: {
       1: {
         2: 1
@@ -1172,8 +1176,8 @@ export const chords: Chord[] = [
   },
 
   {
-    fullName: 'G dominant 7',
-    shortName: 'G7',
+    fullName: "G dominant 7",
+    shortName: "G7",
     frets: {
       1: {
         1: 1
@@ -1185,7 +1189,7 @@ export const chords: Chord[] = [
         6: 3
       }
     }
-  },
-]
+  }
+];
 
-export default chords
+export default chords;
